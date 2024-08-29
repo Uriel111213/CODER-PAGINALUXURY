@@ -1,0 +1,188 @@
+
+h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
+.bigote{
+    opacity: 0.8;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../imagenes/corsafrente.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    margin: 1px;
+    border: 2px solid rgb(255, 255, 0);
+    transition: all 3s;
+}
+.tratamientos{
+    opacity: 0.8;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../imagenes/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    margin: 1px;
+    border: 2px solid rgb(255, 255, 0);
+    transition: all 3s;
+}
+.tratamientos h2{opacity: none;}
+.Limpieza{    opacity: 0.8;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../imagenes/interior.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    margin: 1px;
+    border: 2px solid rgb(255, 255, 0);
+    transition: all 3s;}
+
+.Escaner{ 
+    opacity: 0.8;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../imagenes/WhatsApp\ Image\ 2024-08-15\ at\ 6.46.12\ PM\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    margin: 1px;
+    border: 2px solid rgb(255, 255, 0);
+    transition: all 3s;
+}
+.Escaner h3{
+    opacity: 1.0;}
+.Chaperia{
+    opacity: 0.8;
+    width: 100%;
+    height: 30vh;
+    background-image: url(../imagenes/1p.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    margin: 1px;
+    border: 2px solid rgb(255, 255, 0);
+    transition: all 3s;
+}
+.Chaperia h4{opacity: 1.0;}
+.parrafo{color: rgb(43, 255, 0);}
+*{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.body{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+.form{color: blanchedalmond;}
+.T1{ width:50vw;
+    height:50vh;
+    text-align: center;
+    background-size: cover;
+    background-position: right;
+    background-image: url(../imagenes/6.jpeg)}
+li{color: rgb(246, 248, 250);}
+a{color: rgb(246, 248, 250);}
+.bodyacrilicos{
+    background-color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+}
+.caja1{
+    background-color: rgb(255, 255, 0);
+    width: 100%;
+    height:100% ;
+}
+.bodyceramicos{ 
+    width:50vw;
+    height:50vh;
+    text-align: end;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagenes/2.jpeg)}
+.bodyinterior{   width:50vw;
+    height:50vh;
+    text-align: end;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagenes/interior.jpg)}
+    .mapa{
+        width: 20vw;
+        height: 20vh;
+        background-size: 0ch;}
+@font-face {
+    font-family:letra;
+    src: url(../paginas/fuentes/BungeeSpice-Regular.ttf);
+}
+title{font-family: letra;}
+.botonA,.botonP,.botonC{
+    background-color: yellow;
+    color: rgb(10, 10, 0);
+    border-radius: 10%;
+    transition: all.5s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+h2,H3,h4{
+    background-color: rgb(0, 0, 0);
+    width: 280px;
+}
+h1{
+    background-color: rgb(0, 0, 0);
+}
+.faceboock img{
+    background-color: rgb(0, 0, 255);
+    text-decoration: rgb(0, 7, 7);
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    transition: all 3s;
+    background-size: cover;
+}
+.logowtp{
+    background-color: rgb(0, 128, 0);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 9px;
+    right: 20px;
+}
+.botonW{
+    background-color: rgb(119, 119, 0);
+    color: rgb(10, 10, 0);
+    border-radius: 50%;
+    transition: all.5s;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 9px;
+    right: 20px;
+    background-image: url(../imagenes/logowtp.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.c1{
+    background-color: black;
+    padding:0px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.fondocard{
+    margin: 30px;
+    padding: 10px;
+}
+.card-body{
+    background-color: rgba(0, 0, 0, 0.808);
+}
+.mapa{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    border: radius 0;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 0);
+}
