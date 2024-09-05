@@ -2,20 +2,26 @@
 h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
 .bigote{
     opacity: 0.8;
-    width: 100%;
+    width: 98%;
     height: 50vh;
     background-image: url(../imagenes/corsafrente.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 1px;
-    margin: 1px;
+    margin:1px;
     border: 2px solid rgb(255, 255, 0);
     transition: all 3s;
+    margin-bottom: 5px;
+}
+@media only screen and(min-widht:1200px){
+    .bigote {
+        width: 10%;
+    }
 }
 .tratamientos{
     opacity: 0.8;
-    width: 100%;
+    width: 98%;
     height: 30vh;
     background-image: url(../imagenes/2.jpeg);
     background-repeat: no-repeat;
@@ -25,10 +31,11 @@ h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
     margin: 1px;
     border: 2px solid rgb(255, 255, 0);
     transition: all 3s;
+    margin-bottom: 5px;
 }
 .tratamientos h2{opacity: none;}
 .Limpieza{    opacity: 0.8;
-    width: 100%;
+    width: 98%;
     height: 30vh;
     background-image: url(../imagenes/interior.jpg);
     background-repeat: no-repeat;
@@ -37,13 +44,14 @@ h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
     padding: 1px;
     margin: 1px;
     border: 2px solid rgb(255, 255, 0);
-    transition: all 3s;}
-
+    transition: all 3s;
+    margin-bottom: 5px;
+}
 .Escaner{ 
     opacity: 0.8;
-    width: 100%;
+    width: 98%;
     height: 30vh;
-    background-image: url(../imagenes/WhatsApp\ Image\ 2024-08-15\ at\ 6.46.12\ PM\ \(1\).jpeg);
+    background-image: url(../imagenes/ESCANER.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,12 +59,13 @@ h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
     margin: 1px;
     border: 2px solid rgb(255, 255, 0);
     transition: all 3s;
+    margin-bottom: 5px;
 }
 .Escaner h3{
     opacity: 1.0;}
 .Chaperia{
     opacity: 0.8;
-    width: 100%;
+    width: 98%;
     height: 30vh;
     background-image: url(../imagenes/1p.jpeg);
     background-repeat: no-repeat;
@@ -66,7 +75,9 @@ h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
     margin: 1px;
     border: 2px solid rgb(255, 255, 0);
     transition: all 3s;
+    margin-bottom: 5px;
 }
+
 .Chaperia h4{opacity: 1.0;}
 .parrafo{color: rgb(43, 255, 0);}
 *{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
@@ -74,6 +85,7 @@ h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
     width: 100%;
     height:100%;
     background-color: black;
+    margin-left: 2px;
 }
 .form{color: blanchedalmond;}
 .T1{ width:50vw;
@@ -139,7 +151,12 @@ h1{
     border-radius: 50%;
     transition: all 3s;
     background-size: cover;
+    position: relative;
+    bottom: 5px;
+    left: -2px;
+    background-image: url(../imagenes/Instagram_logo_2016.svg.png);
 }
+
 .logowtp{
     background-color: rgb(0, 128, 0);
     width: 4rem;
@@ -170,19 +187,83 @@ h1{
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
+    position: relative;
+    bottom: -74px;
+    left: 227px;
+    background-size: cover;
 }
 .fondocard{
-    margin: 30px;
-    padding: 10px;
-}
-.card-body{
-    background-color: rgba(0, 0, 0, 0.808);
+    width: 98vw;
+    margin: 3px ;
+    padding: 4px;
+    border: 100px solid rgb(0, 0, 0)
+
 }
 .mapa{
     display: flex;
-    width: 4rem;
+    width: 13rem;
     height: 4rem;
     border: radius 0;
     justify-content: center;
     border: 1px solid rgb(255, 255, 0);
+}
+@media only screen and (main-width:579px){
+    .mapa{  display: flex;
+        width: 50rem;
+        height: 50rem;
+        border: radius 5;
+        justify-content: center;
+        border: 1px solid rgb(255, 255, 0);
+        
+    }
+}
+.h1A{
+    background-color: rgb(12, 12, 0);
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 0);
+    width: 98vw;
+    margin: 3px;
+    padding: 4px;
+
+}
+.trabajos{  opacity: 0.8;
+    width: 98%;
+    height: 5vh;
+    background-image: url(../imagenes/1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    margin: 1px;
+    border: 2px solid rgb(255, 255, 0);
+    transition: all 3s;
+}
+.contenedortrab{   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20rem 20rem 20rem;
+    background-color: rgb(14, 8, 1);
+    margin: 2rem;
+}
+.art1{
+    background-image: url(../imagenes/3cvA.jpeg);
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 0, 0.979);
+}
+.art2{
+    background-color: rgba(0, 8, 8, 0.788);
+    text-align: center;
+    border: 2px solid rgba(255, 255, 0, 0.979);
+}
+.art3{
+    background-image: url(../imagenes/3cvD.jpeg);
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 0, 0.979);
+}
+@media only screen and(min-widht:600px)
+{.contenedortrab{
+    flex-direction: row;
+    grid-template-rows:1fr 1fr 1fr ;
+}
+.art1,.art2,.art3 { grid-template-rows: auto;}
 }
