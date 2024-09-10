@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{color: rgb(35, 240, 7);}
     transition: all 3s;
     margin-bottom: 5px;
 }
-@media only screen and(min-widht:1200px){
+@media only screen and (min-widht:1200px){
     .bigote {
         width: 10%;
     }
@@ -131,7 +131,7 @@ title{font-family: letra;}
     background-color: yellow;
     color: rgb(10, 10, 0);
     border-radius: 10%;
-    transition: all.5s;
+    transition: all 5s;
 }
 button:hover{
     transform: scale(1.2);
@@ -260,9 +260,8 @@ h1{
     background-size: cover;
     border: 2px solid rgba(255, 255, 0, 0.979);
 }
-@media only screen and(min-widht:600px)
+@media only screen and (min-widht:600px)
 {.contenedortrab{
-    flex-direction: row;
     grid-template-rows:1fr 1fr 1fr ;
 }
 .art1,.art2,.art3 { grid-template-rows: auto;}
