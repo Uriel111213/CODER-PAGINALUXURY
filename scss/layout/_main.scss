@@ -1,8 +1,7 @@
-.tratamientos{
-    opacity: 0.8;
+%extenmain{ 
+     opacity: 0.8;
     width: 98%;
     height: 30vh;
-    background-image: url(../imagenes/2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,53 +9,31 @@
     margin: 1px;
     border: 2px solid $colormarillo;
     transition: all 3s;
-    margin-bottom: 5px;
+    margin-bottom: 5px;}
+.tratamientos{
+   @extend %extenmain;
+    background-image: url(../imagenes/2.jpeg);
+   
     h2{opacity: none;}
 }
 
-.Limpieza{    opacity: 0.8;
-    width: 98%;
-    height: 30vh;
+.Limpieza{  
+   @extend %extenmain;
     background-image: url(../imagenes/interior.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 1px;
-    margin: 1px;
-    border: 2px solid $colormarillo;
-    transition: all 3s;
-    margin-bottom: 5px;
+   
 }
 .Escaner{ 
-    opacity: 0.8;
-    width: 98%;
-    height: 30vh;
+   @extend %extenmain;
     background-image: url(../imagenes/ESCANER.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 1px;
-    margin: 1px;
-    border: 2px solid $colormarillo;
-    transition: all 3s;
-    margin-bottom: 5px;
+  
     h3{opacity: 1.0;}
 }
 .Chaperia{
-    opacity: 0.8;
-    width: 98%;
-    height: 30vh;
-    background-image: url(../imagenes/1p.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 1px;
-    margin: 1px;
-    border: 2px solid $colormarillo;
-    transition: all 3s;
-    margin-bottom: 5px;
-    h4{opacity: 1.0;}
-}
+    @extend %extenmain;
+      background-image: url(../imagenes/1p.jpeg);
+    
+      h4{opacity: 1.0;}
+  }
 .botonA{
     background-color:rgb(255, 255, 0) ;
     color: rgb(10, 10, 0);

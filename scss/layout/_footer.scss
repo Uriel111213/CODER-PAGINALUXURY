@@ -1,11 +1,12 @@
-
-
+@mixin formas($ancho,$largo,$circulo){
+    width:$ancho;
+    height:$largo;
+    border-radius:$circulo;
+}
 .faceboock img{
     background-color: rgb(0, 0, 255);
     text-decoration: rgb(0, 7, 7);
-    width: 10vh;
-    height: 10vh;
-    border-radius: 50%;
+   @include formas(10vh,10wh,50%);
     transition: all 3s;
     background-size: cover;
     position: relative;
@@ -16,9 +17,7 @@
 
 .logowtp{
     background-color: rgb(0, 128, 0);
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
+    @include formas(4rem,4rem,50%);
     position: fixed;
     bottom: 9px;
     right: 20px;
@@ -26,11 +25,8 @@
 .botonW{
     background-color: rgb(119, 119, 0);
     color: rgb(10, 10, 0);
-    border-radius: 50%;
     transition: all 5s;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
+    @include formas(4rem,4rem,50%);
     position: fixed;
     bottom: 9px;
     right: 20px;
@@ -41,9 +37,7 @@
 .c1{
     background-color: black;
     padding:0px;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
+    @include formas(4rem,4rem,50%);
     position: relative;
     bottom: -74px;
     left: 227px;
@@ -58,17 +52,13 @@
 }
 .mapa{
     display: flex;
-    width: 13rem;
-    height: 4rem;
-    border: radius 0;
+    @include formas(13rem,4rem,0);
     justify-content: center;
     border: 1px solid $colormarillo;
 }
 @media only screen and (main-width:579px){
     .mapa{  display: flex;
-        width: 50rem;
-        height: 50rem;
-        border: radius 5;
+        @include formas(50rem,50rem,5);
         justify-content: center;
         border: 1px solid $colormarillo;
         
