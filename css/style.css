@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(35, 240, 7);
+  color: rgb(224, 240, 7);
 }
 
 .bigote {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding: 1px;
   margin: 1px;
-  border: 2px solid rgb(25, 0, 255);
+  border: 2px solid rgba(79, 62, 233, 0.342);
   transition: all 3s;
   margin-bottom: 5px;
 }
@@ -31,9 +31,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding: 1px;
   margin: 1px;
-  border: 2px solid rgb(25, 0, 255);
-  transition: all 3s;
-  margin-bottom: 5px;
+  border: 2px solid rgba(79, 62, 233, 0.342);
+  transition: all 4s;
+  margin-bottom: 10px;
 }
 
 .tratamientos {
@@ -62,9 +62,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .botonA {
-  background-color: rgb(255, 255, 0);
-  color: rgb(10, 10, 0);
-  border-radius: 10%;
+  background-color: rgba(79, 62, 233, 0.342);
+  color: rgb(255, 255, 0);
+  border-radius: 20%;
   transition: all 5s;
 }
 
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 4rem;
   border-radius: 0;
   justify-content: center;
-  border: 1px solid rgb(25, 0, 255);
+  border: 1px solid rgba(79, 62, 233, 0.342);
 }
 
 @media only screen and (main-width: 579px) {
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 50rem;
     border-radius: 5;
     justify-content: center;
-    border: 1px solid rgb(25, 0, 255);
+    border: 1px solid rgba(79, 62, 233, 0.342);
   }
 }
 .trabajos {
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding: 1px;
   margin: 1px;
-  border: 2px solid rgb(25, 0, 255);
+  border: 2px solid rgba(79, 62, 233, 0.342);
   transition: all 3s;
 }
 
@@ -206,6 +206,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   background-color: black;
   margin-left: 2px;
+}
+
+.subt {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.titulo {
+  background-color: rgba(79, 62, 233, 0.342);
+}
+
+.limpieza {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
