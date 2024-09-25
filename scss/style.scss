@@ -12,6 +12,13 @@
 }
 .subt{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-style: italic;
-    font-weight: 500;}
+    font-weight: 500;
+    opacity: 0;
+    animation: subt 2s infinite;
+}
+@keyframes subt {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 .titulo{background-color: rgba(79, 62, 233, 0.342);}
 .limpieza{margin: 10px;}

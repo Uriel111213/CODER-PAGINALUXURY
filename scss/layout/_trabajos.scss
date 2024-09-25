@@ -1,29 +1,50 @@
-.contenedortrab{   
+.contenedortrab {   
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20rem 20rem 20rem;
+    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    grid-template-rows: 20rem 20rem 20rem; /* Tres filas para los artículos */
     background-color: rgb(14, 8, 1);
     margin: 2rem;
+    transition: transform 0.5s, margin 0.5s; /* Suavizar giro y margen */
+    transform-origin: center; /* Cambiar punto de origen */
 }
 
-.art1{
+.art1 {
     background-image: url(../../imagenes/3cvA.jpeg);
     background-size: cover;
     border: 2px solid rgba(255, 255, 0, 0.979);
 }
-.art2{
+
+.art2 {
     background-color: rgba(0, 8, 8, 0.788);
     text-align: center;
     border: 2px solid rgba(255, 255, 0, 0.979);
+    display: flex; /* Cambia el display a flex */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    writing-mode: horizontal-tb; /* Asegura que el texto se vea horizontalmente */
 }
-.art3{
+
+.art3 {
     background-image: url(../../imagenes/3cvD.jpeg);
     background-size: cover;
     border: 2px solid rgba(255, 255, 0, 0.979);
 }
-@media only screen and (min-widht:600px)
-{.contenedortrab{
-    grid-template-rows:1fr 1fr 1fr ;
-}
-.art1,.art2,.art3 { grid-template-rows: auto;}
+
+@media only screen and (min-width: 600px) {
+    .contenedortrab {
+        grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+        grid-template-rows: auto; /* Ajustar filas a contenido */
+        margin: 0 auto; /* Centrar el contenedor */
+        width: 100%; /* Ajustar al 100% de ancho */
+    }
+    
+    .art1 {
+        grid-column: 1; /* Colocar art1 en la primera columna */
+    }
+    .art2 {
+        grid-column: 2; /* Colocar art2 en la segunda columna */
+    }
+    .art3 {
+        grid-column: 3; /* Colocar art3 en la tercera columna */
+    }
 }
