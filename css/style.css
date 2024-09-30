@@ -255,4 +255,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
+/* barra de navegacion en servicios*/
+.navbar {
+  background-color: rgb(10, 0, 0) !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: rgb(255, 255, 0) !important;
+}
+
 /*# sourceMappingURL=style.css.map */
