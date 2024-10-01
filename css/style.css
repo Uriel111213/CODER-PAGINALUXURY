@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding: 1px;
   margin: 1px;
-  border: 2px solid rgba(79, 62, 233, 0.342);
+  border: 2px solid rgba(222, 233, 62, 0.377);
   transition: all 3s;
   margin-bottom: 5px;
 }
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding: 1px;
   margin: 1px;
-  border: 2px solid rgba(79, 62, 233, 0.342);
+  border: 2px solid rgba(222, 233, 62, 0.377);
   transition: all 4s;
   margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .botonA {
-  background-color: rgba(79, 62, 233, 0.342);
+  background-color: rgba(17, 17, 0, 0.342);
   color: rgb(255, 255, 0);
   border-radius: 20%;
   transition: width 0.5s ease, bacground-color 1s ease;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 4rem;
   border-radius: 0;
   justify-content: center;
-  border: 1px solid rgba(79, 62, 233, 0.342);
+  border: 1px solid rgba(222, 233, 62, 0.377);
 }
 
 @media only screen and (main-width: 579px) {
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 50rem;
     border-radius: 5;
     justify-content: center;
-    border: 1px solid rgba(79, 62, 233, 0.342);
+    border: 1px solid rgba(222, 233, 62, 0.377);
   }
 }
 .trabajos {
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding: 1px;
   margin: 1px;
-  border: 2px solid rgba(79, 62, 233, 0.342);
+  border: 2px solid rgba(222, 233, 62, 0.377);
   transition: all 3s;
 }
 
@@ -224,6 +224,10 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: 3; /* Colocar art3 en la tercera columna */
   }
 }
+h1, h2, h3 {
+  color: rgb(238, 255, 0);
+}
+
 .body {
   width: 100%;
   height: 100%;
@@ -248,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .titulo {
-  background-color: rgba(79, 62, 233, 0.342);
+  background-color: rgba(222, 233, 62, 0.507);
 }
 
 .limpieza {
@@ -263,6 +267,17 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: rgb(255, 255, 0) !important;
+}
+
+#carouselExample {
+  width: 80%; /* Cambia este valor para ajustar el ancho */
+  max-width: 600px; /* Puedes establecer un máximo para el ancho */
+  margin: auto; /* Centra el carrusel */
+}
+
+.carousel-inner img {
+  height: 600px; /* Cambia este valor para ajustar la altura de las imágenes */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
 }
 
 /*# sourceMappingURL=style.css.map */
