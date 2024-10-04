@@ -42,10 +42,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .tratamientos h2 {
   opacity: none;
+  color: rgba(9, 10, 0, 0.979);
 }
 
 .Limpieza {
   background-image: url(../imagenes/interior.jpg);
+}
+.Limpieza h3 {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.979);
 }
 
 .Escaner {
@@ -53,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .Escaner h3 {
   opacity: 1;
+  color: rgba(0, 0, 0, 0.979);
 }
 
 .Chaperia {
@@ -60,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .Chaperia h4 {
   opacity: 1;
+  color: rgba(0, 0, 0, 0.979);
 }
 
 .botonA {
@@ -224,10 +231,6 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: 3; /* Colocar art3 en la tercera columna */
   }
 }
-h1, h2, h3 {
-  color: rgb(238, 255, 0);
-}
-
 .body {
   width: 100%;
   height: 100%;
@@ -269,15 +272,21 @@ h1, h2, h3 {
   color: rgb(255, 255, 0) !important;
 }
 
-#carouselExample {
-  width: 80%; /* Cambia este valor para ajustar el ancho */
-  max-width: 600px; /* Puedes establecer un máximo para el ancho */
-  margin: auto; /* Centra el carrusel */
+.carousel-inner img {
+  height: 600px;
+  object-fit: cover;
 }
 
-.carousel-inner img {
-  height: 600px; /* Cambia este valor para ajustar la altura de las imágenes */
-  object-fit: cover; /* Mantiene la proporción de la imagen */
+.carousel-item img {
+  margin-bottom: 20px;
+}
+
+.footer .map-container {
+  margin: 0 15px;
+}
+
+.titulostrab {
+  background-color: rgba(248, 248, 5, 0.925);
 }
 
 /*# sourceMappingURL=style.css.map */

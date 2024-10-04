@@ -13,26 +13,25 @@
 .tratamientos{
    @extend %extenmain;
     background-image: url(../imagenes/2.jpeg);
-   
-    h2{opacity: none;}
+    h2{opacity: none; color: rgba(9, 10, 0, 0.979)}
 }
 
 .Limpieza{  
    @extend %extenmain;
     background-image: url(../imagenes/interior.jpg);
-   
+    h3{opacity: 1.0;color: rgba(0, 0, 0, 0.979)}
 }
 .Escaner{ 
    @extend %extenmain;
     background-image: url(../imagenes/ESCANER.jpeg);
   
-    h3{opacity: 1.0;}
+    h3{opacity: 1.0;color: rgba(0, 0, 0, 0.979)}
 }
 .Chaperia{
     @extend %extenmain;
       background-image: url(../imagenes/1p.jpeg);
     
-      h4{opacity: 1.0;}
+      h4{opacity: 1.0;color: rgba(0, 0, 0, 0.979)}
   }
 .botonA{
     background-color:rgba(17, 17, 0, 0.342) ;
